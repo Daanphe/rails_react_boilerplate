@@ -49,6 +49,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # custom gems
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'devise'
+gem 'pundit'
 
 # test setup
 group :development, :test do
