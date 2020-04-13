@@ -48,3 +48,13 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # custom gems
 gem 'dotenv-rails', groups: [:development, :test]
+
+# test setup
+group :development, :test do
+  gem 'rspec-rails', '~> 4.0.0'
+  gem "factory_bot_rails"
+  gem "faker"
+  gem "database_cleaner-active_record"
+  gem "database_cleaner-sequel"
+  gem "shoulda-matchers", "~> 3.1"
+end
