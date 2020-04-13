@@ -1,8 +1,13 @@
 # rails_react_boilerplate
 Boilerplate app to use rails with react
 
+Uses:
+* `devise` for authentication
+* `pundit` for authorization
+* `pronto` for static code analysis
 * Ruby version
     `2.6.5`
+* Node version `13.2.0`    
     
 **Getting Started**
 
